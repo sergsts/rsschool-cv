@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>    
+</head>
+<body>
+    <div class="container">
+        <header class="main-header">
+            <h1>Siarhei Pyrkh</h1>
+            <figure>
+                <img class="avatar" src="IMG/Darkman.jpg" width="300" alt="avatar" />
+            </figure>
+        </header>
+        <main>
+            <section class="contacts">
+                <h2>Contact information</h2>
+                <ul>
+                    <li>
+                        <span class="tel">Tel:</span>
+                        <a href="tel:+375335495656">+375(29)549-56-56</a>
+                    </li>
+                    <li>
+                        <span class="mail">Email:</span>
+                        <a href="mailto:stshnik@mail.ru">stshnik@mail.ru</a>
+                    </li>
+                </ul>
+            </section>
+            <section class="about-myself">
+                <h2>About Myself</h2>
+                <p>My goal is to obtain knowledge and skills in front-end development.</p>
+            </section>
+            <section class="skills">
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                  </ul>
+            </section>
+            <section class="code-example">
+                <h2>Code Example</h2>
+                <p><a href="https://www.codewars.com/kata/514b92a657cdc65150000006">Multiples of 3 or 5</a> KATA from CODEWARS</p>
+                <p>If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.<br>
+                    Finish the solution so that it returns the sum of all the multiples of 3 or 5 below the number passed in. Additionally, if the number is negative, return 0 (for languages that do have them).<br>
+                    Note: If the number is a multiple of both 3 and 5, only count it once.</p>
+                <pre>
+                    <code>
+                        function solution(number){
+                            let x = 0;
+                            for(i = 0; i &lt; number; i++) {
+                              if(i % 3 == 0 || i % 5 ==0) {x += i;}
+                            }
+                            return (x);
+                          }
+                    </code>
+                </pre>            
+            </section>
+            <section class="education">
+                <h2>Education and courses</h2>
+                <ul>
+                    <li>htmlacademy</li>
+                    <li>codecademy</li>
+                    <li>RSSchool</li>
+                </ul>                
+            </section>
+            <section class="lang">
+                <h2>Languages</h2>
+                <p>English - A2 elementary</p>
+            </section>
+        </main>
+        <footer class="main-footer">
+            <p>2021</p>
+                <a href="https://github.com/SiarheiPyrkh">https://github.com/SiarheiPyrkh</a>
+                <a href="https://rs.school/js/">
+                    <img src="IMG/rs_school_js.svg" width="50" alt="Link to «JavaScript/Front-end» course">
+                </a>            
+        </footer>
+    </div>
+</body>
+</html>
